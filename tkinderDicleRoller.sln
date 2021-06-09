@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tkinderDicleRoller", "tkinderDicleRoller\tkinderDicleRoller.pyproj", "{E4EE4432-E627-497E-A56F-EEDACE0C7A44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EE4432-E627-497E-A56F-EEDACE0C7A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EE4432-E627-497E-A56F-EEDACE0C7A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18F6E949-1203-4DE9-AEA2-F353DF590121}
+	EndGlobalSection
+EndGlobal
