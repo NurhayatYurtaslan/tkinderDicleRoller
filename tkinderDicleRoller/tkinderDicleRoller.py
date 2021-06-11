@@ -1,20 +1,18 @@
+  
 from tkinter import messagebox as mb
 from tkinter import PhotoImage
 import tkinter as tk
 import random
 
+
 r = tk.Tk()
 r.geometry('700x600')
 r.title('Nurlife Roller Dicle')
-
-bg = PhotoImage('D:\image\background.jpg')
-  
+bg = PhotoImage('D://image//background.jpg')
 # Create Canvas
 c = tk.Canvas(r, width=700, height=600)
-#c.pack()
-  
-c.pack(fill = "both", expand = True)
-  
+#c.pack()  
+c.pack(fill = "both", expand = True)  
 # Display image
 c.create_image( 0, 0, image = bg, anchor = "nw")
 
@@ -29,7 +27,7 @@ def roll_dice():
     die1 = random.choice(dice)
     die2 = random.choice(dice)
     ldice.configure(text=f'{die1} {die2}')
-    c.create_window(300, 250, window=ldice)
+    c.create_window(350, 250, window=ldice)
     res = d[die1] + d[die2]
     label2.configure(text="You got  "+str(res))
     bttn_clicks += 1
