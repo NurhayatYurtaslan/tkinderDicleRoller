@@ -8,7 +8,7 @@ import random
 r = tk.Tk()
 r.geometry('700x600')
 r.title('Nurlife Roller Dicle')
-bg = PhotoImage('D://image//background.jpg')
+bg = PhotoImage(file='D://image//background.png') # JPG dosyasını PNG'ye dönüştür
 # Create Canvas
 c = tk.Canvas(r, width=700, height=600)
 #c.pack()  
